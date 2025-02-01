@@ -1,0 +1,31 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gold;
+    padding: 10px;
+}
+
+.logo{
+    font-weight: bold;
+}
+
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
