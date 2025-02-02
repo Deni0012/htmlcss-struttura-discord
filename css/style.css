@@ -139,12 +139,17 @@ footer{
     gap: 0px;
     width: 5%;
     padding: 40px 0;
-    border: 1px dotted white;
 }
 
-footer .box{
+footer .box .pink-due{
     width: 30%;
     height: 100px;
+}
+
+.pink-due{
+    background-color: #f08080;
+    border: 1px dotted white;
+    gap: 0;
 }
 
 .teal-container{
@@ -156,6 +161,10 @@ footer .box{
 .teal{
     background-color: teal;
     height: 100px;
+    width: 30%;
+    padding: 50px 40px;
+    border: 1px dotted white;
+    gap: 0;
 }
 
 .footer-bottom{
