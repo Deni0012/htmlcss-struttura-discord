@@ -4,21 +4,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dotted black;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* header*/
 
 header{
     display: flex;
-    align-items: center;
+    justify-content: center;
     background-color: #add8e6;
     padding: 10px;
-    width: 100vw;
+    width: 100%;
 }
 
 .logo{
@@ -28,24 +30,18 @@ header{
     justify-content: space-between;
     background-color: gold;
     font-weight: bold;
-    text-decoration: dotted;
 }
 
 nav{
     margin: 0 10px;
-    text-decoration: dotted;
     color: black;
 }
 
 nav a{
     margin: 0 10px;
-    text-decoration: dotted;
     color: black;
 }
 
-.login{
-    text-decoration: dotted;
-}
 
 /* contenuto del main */
 
@@ -53,7 +49,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 /* corpo del layout */
@@ -62,6 +58,7 @@ main{
     background-color: darkblue;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 50px;
     width: 1200%;
     min-height: 200px;
@@ -83,9 +80,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0;
     padding: 40px 0;
-    width: 100vw;
+    width: 100%;
     min-height: 200px;
 }
 
@@ -106,13 +103,22 @@ main{
     background-color: pink;
 }
 
+/* width green */
+
 .full-width{
     width: 100%;
     min-height: 200px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .green{
      background-color: green;
+     width: 50%;
+     padding: 80px;
+     
 }
 
 /* footer */
@@ -130,9 +136,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    width: 100%;
+    gap: 0px;
+    width: 5%;
     padding: 40px 0;
+    border: 1px dotted white;
 }
 
 footer .box{
@@ -142,7 +149,7 @@ footer .box{
 
 .teal-container{
     display: flex;
-    gap: 5px;
+    gap: 0;
     width: 50%;
 }
 
@@ -158,6 +165,7 @@ footer .box{
     width: 100%;
     background-color: #7fffd4;
     padding: 10px;
+    text-align: center;
 }
 
 .button{
